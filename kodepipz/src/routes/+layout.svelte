@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg bg-body-secondary container-fluid">
+<nav class="navbar navbar-expand-lg bg-body-tertiary container-fluid">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"><span style="color:blue;">Kode</span><span style="color:red;">Pipz</span></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,7 +37,7 @@
   <slot/>
   <br>
   
-  <footer class="py-3 my-4">
+  <footer class="py-3 my-4" style="background-color:lightgrey;">
     <ul class="nav justify-content-center border-bottom pb-3 mb-3">
       <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
       <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Careers</a></li>
@@ -57,8 +57,6 @@
         font-size: large;
 
     }
-    nav {
-        background-color: blue;
-    }
+
    
 </style>
