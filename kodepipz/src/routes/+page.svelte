@@ -48,7 +48,7 @@
   </aside>
 </div>
 <div class="col-md-6"><br>
-  <h1>Welcome to our site!</h1>
+  <h1>Welcome to our site!<img src="/src/siteicon.png" height="100"></h1>
   <h5 style="font-weight: 300;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure eaque voluptate, eligendi omnis consequatur nihil similique totam. Magnam, doloribus. Ut corporis sapiente corrupti accusamus fugiat nesciunt ipsam inventore odio magni.</h5>
   <br>
   <button class="btn btn-primary" type="button" value="submit">Get Started</button>
@@ -63,7 +63,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-6">
-            <h2>Why study web development?</h2><br>
+            <h2><img src="/src/webdevicon.png" height="60">Why study web development?</h2><br>
             <h5 style="font-weight: 300;">In today's digital age, businesses and organizations of all sizes rely heavily on an online presence. This has led to a significant demand for skilled web developers who can design, build, and maintain websites and web applications.</h5><br>
             <button class="btn btn-primary" type="submit">Apply now!</button>
         </div>
@@ -86,7 +86,7 @@
             <img src="/src/online teacher.jpg" style="height: 300px;" >
         </div>
         <div class="col-md-6">
-           <h2>Online Learning</h2>
+           <h2><img src="/src/onlinelearning.png" height="60">Online Learning</h2>
            <h5 style="font-weight: 300;">At KodePipz, we also offer online tutorial for kids and adults on different subjects. You can pick your preferred teachers or tutors. Do you want to check our available teachers/tutors as well as the subjects we're currently offering?</h5>
            <br><button class="btn btn-primary" type="submit">Signup now!</button>
         </div>
@@ -99,7 +99,7 @@
   <div class="row g-4 py-5 row-cols-1 row-cols-lg-3 container" style="padding-left: 120px;">
     <div class="feature col">
       <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-        <img src="/src/affordabilityicon.png" alt="">
+        <img src="/src/affordabilityicon.png" alt="" height="60">
       </div>
       <h3 class="fs-2 text-body-emphasis">Affordability</h3>
       <h5 style="font-weight: 300;">Our web development course is designed to be affordable and accessible to a wide range of individuals who are interested in learning about this dynamic field. The course provides comprehensive and practical knowledge at a reasonable price point, making it an excellent investment for those looking to acquire valuable skills in web development.</h5><br>
@@ -111,7 +111,7 @@
     </div>
     <div class="feature col">
       <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-        <img src="/src/flexibilityicon.png" alt="">
+        <img src="/src/flexibilityicon.png" alt="" height="60">
       </div>
       <h3 class="fs-2 text-body-emphasis">Flexibility</h3>
       <h5 style="font-weight: 300;">Our web development course offers exceptional flexibility when it comes to scheduling. We understand that our students have diverse commitments and responsibilities, which is why we've designed the course to accommodate various schedules.</h5>
@@ -123,7 +123,7 @@
     </div>
     <div class="feature col">
       <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-        <img src="/src/accessibilityicon.png" alt="">
+        <img src="/src/accessibilityicon.png" alt="" height="60">
       </div>
       <h3 class="fs-2 text-body-emphasis">Accessibility</h3>
       <h5 style="font-weight: 300;">Our web development course places a strong emphasis on accessibility. We believe that everyone, regardless of their abilities, should have equal access to educational opportunities. By integrating accessibility features into our course, we strive to create a digital space that accommodates diverse learning needs.</h5>
