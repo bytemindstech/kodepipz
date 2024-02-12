@@ -1,3 +1,4 @@
+
 <nav class="navbar navbar-expand-lg bg-body-tertiary container-fluid">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"><span style="color:blue;">Kode</span><span style="color:red;">Pipz</span></a>
@@ -18,13 +19,13 @@
             </a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="https://classroom.jhenbert.com/?redirect=0">Courses</a></li>
-              <li><a class="dropdown-item" href="#">Tutorials</a></li>
+              <li><a class="dropdown-item" href="#">Teach at KodePipz</a></li>
               <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item" href="./blog">Blog</a></li>
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="">Login</a>
+            <a class="nav-link" href="./login">Login</a>
           </li>
         </ul>
         <form class="d-flex" role="search">
@@ -52,6 +53,7 @@
     body{
         padding: 0%;
         margin:0%;
+        background-color: lightgray;
     }
     nav a {
         font-size: large;
