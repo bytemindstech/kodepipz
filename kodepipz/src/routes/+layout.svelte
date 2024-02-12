@@ -1,4 +1,3 @@
-
 <nav class="navbar navbar-expand-lg bg-body-tertiary container-fluid">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"><span style="color:blue;">Kode</span><span style="color:red;">Pipz</span></a>
