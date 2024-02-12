@@ -3,12 +3,10 @@
 </script>
 
 <div class="layout">
-	<div class="container">
-        <main>
-            <slot />
-        </main>
-    
-    </div>
+	<main class="container">
+		<slot />
+	</main>
+
 	<aside>
 		<h2>More posts</h2>
 		<ul>
