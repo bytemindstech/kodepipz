@@ -1,9 +1,5 @@
-<script>
-    let title = "Frequently Asked Questions";
-</script>
-<br>
-<br>
-<center><h2 class="featurette-heading fw-normal lh-1">{title}</h2></center><br>
+
+<center><h2 class="featurette-heading fw-normal lh-1">Frequently Asked Questions</h2></center><br>
   <div class="container">
     <div class="accordion accordion-flush card container" id="accordionFlushExample">
         <div class="accordion-item">
@@ -96,3 +92,9 @@
   </div>
   <br>
   <br>
+
+  <style>
+    .accordion {
+      z-index: 9;
+    }
+  </style>

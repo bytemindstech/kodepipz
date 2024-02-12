@@ -61,6 +61,7 @@
     }
 nav {
   position: fixed;
+  z-index: 1;
 }
    
 </style>
