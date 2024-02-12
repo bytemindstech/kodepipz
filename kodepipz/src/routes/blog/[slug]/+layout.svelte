@@ -2,6 +2,9 @@
 	export let data;
 </script>
 <br>
+<br>
+<br>
+<br>
 <div class="layout container">
 	<main class="container">
 		<slot />

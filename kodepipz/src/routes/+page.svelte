@@ -35,6 +35,9 @@
   -->
   <br>
   <br>
+  <br>
+  <br>
+  <br>
   <div class="container">
    <div class="row">
 <div class="col-md-6">
@@ -92,7 +95,7 @@
 </div>
 <br>
 <br>
-<hr>
+<hr class="divider">
   <div class="row g-4 py-5 row-cols-1 row-cols-lg-3 container" style="padding-left: 120px;">
     <div class="feature col">
       <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
@@ -133,6 +136,6 @@
   </div>
   <br>
   <br>
-  <hr>
+
   <br>
   <br>

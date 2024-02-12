@@ -2,6 +2,8 @@
 	export let data;
 </script>
 <br>
+<br>
+<br>
 <div class="container">
 	<h1>Blog</h1>
 <br>
