@@ -19,8 +19,9 @@
             </a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="https://classroom.jhenbert.com/?redirect=0">Courses</a></li>
-              <li><a class="dropdown-item" href="#">Teach at KodePipz</a></li>
+              <li><a class="dropdown-item" href="#">Coding for Kids</a></li>
               <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="./faqs">Frequently Asked Questions</a></li>
               <li><a class="dropdown-item" href="./blog">Blog</a></li>
             </ul>
           </li>
