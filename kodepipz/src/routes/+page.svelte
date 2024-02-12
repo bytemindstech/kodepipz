@@ -66,7 +66,7 @@
         </div>
         <br>
         <div class="col-md-6">
-            <img src="/src/webimage.jpg">
+            <img src="/src/wonderingguy.jfif" style="height: 300px;">
         </div>
     </div>
 
@@ -80,7 +80,7 @@
     <div class="row">
         <br>
         <div class="col-md-6">
-            <img src="/src/online teacher.jpg">
+            <img src="/src/online teacher.jpg" style="height: 300px;" >
         </div>
         <div class="col-md-6">
            <h2>Online Learning</h2>
