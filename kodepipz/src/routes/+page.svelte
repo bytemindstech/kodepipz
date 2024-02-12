@@ -186,7 +186,7 @@
   <center><h2 class="featurette-heading fw-normal lh-1">Do you have a question?</h2></center>
   <br>
   <br>
-  <div class="container">
+  <div class="container card"> <br>
     <div>  <label for="exampleFormControlInput1" class="form-label">First and Last name</label>
         <div class="mb-3">
             <div class="input-group">
@@ -202,6 +202,7 @@
           </div>
           <center><button type="button" class="btn btn-primary">Submit</button></center>
     </div>
+    <br>
   </div>
   <br>
   <br>
