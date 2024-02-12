@@ -48,7 +48,7 @@
   </aside>
 </div>
 <div class="col-md-6"><br>
-  <h1>Welcome to our site!<img src="/src/siteicon.png" height="100"></h1>
+  <h1>Welcome to our site!</h1>
   <h5 style="font-weight: 300;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure eaque voluptate, eligendi omnis consequatur nihil similique totam. Magnam, doloribus. Ut corporis sapiente corrupti accusamus fugiat nesciunt ipsam inventore odio magni.</h5>
   <br>
   <button class="btn btn-primary" type="button" value="submit">Get Started</button>
