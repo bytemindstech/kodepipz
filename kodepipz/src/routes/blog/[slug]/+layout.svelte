@@ -1,8 +1,8 @@
 <script>
 	export let data;
 </script>
-
-<div class="layout">
+<br>
+<div class="layout container">
 	<main class="container">
 		<slot />
 	</main>

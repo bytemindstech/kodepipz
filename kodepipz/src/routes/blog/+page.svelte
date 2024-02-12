@@ -1,11 +1,14 @@
 <script>
 	export let data;
 </script>
-
-<h1>blog</h1>
-
+<br>
+<div class="container">
+	<h1>Blog</h1>
+<br>
 <ul>
 	{#each data.summaries as { slug, title }}
 		<li><a href="/blog/{slug}">{title}</a></li>
 	{/each}
 </ul>
+
+</div>
