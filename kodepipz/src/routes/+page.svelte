@@ -33,6 +33,8 @@
     </button>
   </div>
   -->
+  <script>
+  </script>
   <br>
   <br>
   <br>
@@ -136,6 +138,21 @@
   </div>
   <br>
   <br>
+<hr>
+<br>
+<br>
+<div class="row container" style="padding-left: 20px;">
+  <div class="col-md-6">
+    <iframe  src ="https://youtu.be/9YLkhn3jQHI" width = "600" height = "400" class="video">
 
+    </iframe>
+  </div>
+  <div class="col-md-6">
+  <h1><img src="/src/decided.png" alt="" height="40">Want to join our bootcamp now?</h1>
+<h5 style="font-weight: 300;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum accusantium aspernatur at sapiente dolorem eius facere nobis ipsum itaque et! Libero, natus ex. Tempore aut architecto cum totam ratione est.</h5>
+<br>
+<button class="btn btn-primary" type="button">Apply now!</button>
+</div>
+</div>
   <br>
   <br>

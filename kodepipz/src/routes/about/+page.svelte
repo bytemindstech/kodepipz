@@ -5,7 +5,7 @@
 <br>
 <br>
 <br>
-<center><h2><img src="/src/teamicon.png" height="60"> {title}</h2></center>
+<center><h2><img src="/src/teamicon.png" height="40"> {title}</h2></center>
 <br>
 <br>
 <!--
@@ -67,11 +67,11 @@
   <div class="row">
     <div class="col-md-6">
       <h5 class="fs-2 text-body-emphasis"><u>Company Mission</u><img src="/src/missionicon2.png" height="40"></h5>
-      
+      <br>
       <h5 style="font-weight: 300;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam accusantium, odit asperiores dolorem maiores placeat maxime! Error cupiditate quos, iure accusamus illum molestiae, quas ducimus, debitis pariatur dolor porro hic.</h5>
     </div>
     <div class="col-md-6"><h5 class="fs-2 text-body-emphasis"><u>Company Vision</u><img src="/src/visionicon.png" height="30"></h5>
-    
+    <br>
     <h5 style="font-weight: 300;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam nostrum saepe, mollitia voluptatibus voluptatum iste corrupti quidem. Cumque natus quae voluptas, ex nihil adipisci inventore vel a suscipit ullam quisquam?</h5>
     </div>
   </div>
