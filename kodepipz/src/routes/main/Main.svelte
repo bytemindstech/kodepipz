@@ -1,7 +1,7 @@
 <script>
     export {default as Main} from './Main.svelte';
     </script>
-
+<!--This is the main page/index. below is next to hero section and it's adjacent to the footer-->
 <div class="container">
     <div class="row">
         <div class="col-md-6">
@@ -95,3 +95,4 @@
 </div>
   <br>
   <br>
+<!--Footer here-->

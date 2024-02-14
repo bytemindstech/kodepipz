@@ -8,19 +8,23 @@
 <br>
 <div class="container">
   <div class="row">
-    <div class="col-md-6">
+    <div class="col-sm-3">
+    </div>
+    <div class="col-sm-3">
       <img src="/prfle.jpg" alt="" style="border-radius: 70%; height: 200px; width: 200px;"><br>
       <br>
-      <h2><u>Rizaldy Britanico - OM</u></h2>
+      <h4><u>Rizaldy Britanico - OM</u></h4>
       <h5 style="font-weight: 300;">One of the founders.</h5>
       <p>Front End Web Developer</p>
     </div>
-    <div class="col-md-6">
+    <div class="col-sm-3">
       <img src="/jhenbert.jpg" alt="" style="border-radius: 70%; height: 200px; width: 200px;"><br>
       <br>
-      <h2><u>Jhenbert Villamucho - OM</u></h2>
+      <h4><u>Jhenbert Villamucho - OM</u></h4>
       <h5 style="font-weight: 300;">One of the founders.</h5>
       <p>Full Stack Web Developer</p>
+    </div>
+    <div class="col-sm-3">
     </div>
   </div>
 </div>

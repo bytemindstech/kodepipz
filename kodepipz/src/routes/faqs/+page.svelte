@@ -1,4 +1,5 @@
-<script>
+<script lang="ts">
+	import Divider from './../divider/Divider.svelte';
 	import Hero from './../hero/Hero.svelte';
   </script>
 <br>
@@ -72,33 +73,33 @@
   </div>
   <br>
   <br>
-  <hr class="container">
+ <Divider/>
   <br>
   <br>
   <center><h2 class="featurette-heading fw-normal lh-1">Do you have a question?</h2></center>
   <br>
   <br>
-  <div class="container card"> <br>
-    <div>  <label for="exampleFormControlInput1" class="form-label">First and Last name</label>
-        <div class="mb-3">
-            <div class="input-group">
-                <input type="text" aria-label="First name" class="form-control">
-                <input type="text" aria-label="Last name" class="form-control">
-              </div>
-            <label for="exampleFormControlInput1" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-          </div>
+    <div class="container card"> <br>
+      <div>  <label for="exampleFormControlInput1" class="form-label">First and Last name</label>
           <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Write your message</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-          </div>
-          <center><button type="button" class="btn btn-primary">Submit</button></center>
+              <div class="input-group">
+                  <input type="text" aria-label="First name" class="form-control">
+                  <input type="text" aria-label="Last name" class="form-control">
+                </div>
+              <label for="exampleFormControlInput1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Write your message</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <center><button type="button" class="btn btn-primary">Submit</button></center>
+      </div>
+      <br>
     </div>
-    <br>
-  </div>
   <br>
   <br>
-<Hero />
+
   <style>
     .accordion {
       position: relative;
