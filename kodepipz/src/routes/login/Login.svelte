@@ -1,3 +1,10 @@
+<script>
+    export { default as Login } from './Login.svelte';
+    </script>
+
 <center>
-    <h3>Login</h3>
+    <form class="card">
+        <label for="">Username</label>
+        <input type="text" name="username" id="username">
+    </form>
 </center>

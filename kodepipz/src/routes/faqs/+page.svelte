@@ -1,3 +1,6 @@
+<script>
+	import Hero from './../hero/Hero.svelte';
+  </script>
 <br>
 <br>
 <br>
@@ -95,7 +98,7 @@
   </div>
   <br>
   <br>
-
+<Hero />
   <style>
     .accordion {
       position: relative;
