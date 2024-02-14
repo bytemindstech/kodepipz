@@ -1,1 +1,5 @@
-<center>login</center>
+<script>
+  import { Login } from "$lib";
+</script>
+
+<Login />
