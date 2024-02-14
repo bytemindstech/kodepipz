@@ -1,4 +1,7 @@
-
+<br>
+<br>
+<br>
+<br>
 <center><h2 class="featurette-heading fw-normal lh-1">Frequently Asked Questions</h2></center><br>
   <div class="container">
     <div class="accordion accordion-flush card container" id="accordionFlushExample">
@@ -95,6 +98,7 @@
 
   <style>
     .accordion {
-      z-index: 9;
+      position: relative;
     }
+
   </style>
