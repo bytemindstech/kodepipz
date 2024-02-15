@@ -1,7 +1,6 @@
 <script lang="ts">
-	import Founders from './../founders/Founders.svelte';
-	import Vision from './../vision/Vision.svelte';
-	import Divider from './../divider/Divider.svelte';
+	import {Divider, Founders, Visions} from "$lib";
+	
 </script>
 <br>
 <br>
@@ -11,4 +10,4 @@
 <Divider/>
 <br>
 <br>
-<Vision/>
+<Visions />

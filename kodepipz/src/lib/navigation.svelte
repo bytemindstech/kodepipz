@@ -6,12 +6,8 @@
   };
 </script>
 
-<nav class="navbar navbar-expand-lg bg-body-tertiary container-fluid">
+<nav class="navbar navbar-expand-lg container-fluid">
   <div class="container">
-    <a class="navbar-brand" href="/"
-      ><span style="color:blue;">Kode</span><span style="color:red;">Pipz</span
-      ></a
-    >
     <button
       class="navbar-toggler"
       type="button"
@@ -103,13 +99,22 @@
 <style>
   nav a {
     font-size: large;
+    color: white;
   }
+
+nav a:active{
+  color: white;
+}
   nav {
     position: fixed;
     z-index: 1;
+    
   }
 
   .active {
     font-weight: bold;
+  }
+  .navbar {
+    background-color:#0f0730;
   }
 </style>

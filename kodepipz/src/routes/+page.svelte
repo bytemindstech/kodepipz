@@ -1,7 +1,6 @@
 <script>
-	import Divider from './divider/Divider.svelte';
-	import Hero from './hero/Hero.svelte';
-  import Main from './main/Main.svelte';
+	import {Hero, Divider} from "$lib";
+  import {Main} from "$lib";
   </script>
 <Hero/>
 <br>

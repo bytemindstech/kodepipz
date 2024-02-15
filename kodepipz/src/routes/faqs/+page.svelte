@@ -1,6 +1,5 @@
 <script lang="ts">
-	import Divider from './../divider/Divider.svelte';
-	import Hero from './../hero/Hero.svelte';
+	import {Divider} from "$lib";
   </script>
 <br>
 <br>

@@ -1,13 +1,12 @@
-<script>
-    export {default as Hero} from './Hero.svelte';
-    let greet= "Welcome to our site!";
-    </script>
+<script lang="ts">
+    let greet = "WELCOME TO OUR SITE";
+</script>
 <br>
 <br>
 <br>
 <br>
 <br>
-<div class="container">
+<div class="container hero">
  <div class="row">
 <div class="col-md-6">
 <aside style="padding-left: 40px;">
@@ -24,3 +23,9 @@
 </div>
  </div>
 </div>
+
+<style>
+  .hero {
+    background-color: whitesmoke;
+  }
+</style>
