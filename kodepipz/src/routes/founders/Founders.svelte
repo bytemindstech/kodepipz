@@ -1,9 +1,8 @@
-<script>
-    export {default as Founders} from './Founders.svelte';
-    let title = "Our Team";
-    </script>
-
-<center><h2><img src="/teamicon.png" height="40"> {title}</h2></center>
+<script lang="ts">
+  export {default as Founders} from './Founders.svelte';
+  let hello = "Our Team";
+</script>
+<center><h2><img src="/teamicon.png" height="40"> {hello}</h2></center>
 <br>
 <br>
 <div class="container">

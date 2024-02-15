@@ -5,7 +5,8 @@
 <br>
 <br>
 <div class="container">
-	<h1>Blog <img src="/blogicon.png" alt="" height="40"></h1>
+	<img src="/blogicon.png" alt="" height="60">
+<br>
 <br>
 <ul>
 	{#each data.summaries as { slug, title }}
