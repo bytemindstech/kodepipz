@@ -1,4 +1,5 @@
 <script lang="ts">
+  import {Header} from "$lib";
   let activeLink: number | null = null;
 
   const setActive = (index: number) => {
@@ -103,10 +104,9 @@
   }
 
 nav a:active{
-  color: white;
+  color: blue;
 }
   nav {
-    position: fixed;
     z-index: 1;
     
   }
@@ -115,6 +115,11 @@ nav a:active{
     font-weight: bold;
   }
   .navbar {
-    background-color:#0f0730;
+    background-color:#062c33;padding-top: 15px;
+    padding-bottom: 15px;
+
+  }
+  .dropdown-menu li a {
+    color: black;
   }
 </style>

@@ -89,7 +89,7 @@
        </video>
      </div>
      <div class="col-md-6">
-     <h1><img src="/src/decided.png" alt="" height="40">Want to join our bootcamp now?</h1>
+     <h1><img src="/decided.png" alt="" height="40"> Want to join our bootcamp now?</h1>
    <h5 style="font-weight: 300;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum accusantium aspernatur at sapiente dolorem eius facere nobis ipsum itaque et! Libero, natus ex. Tempore aut architecto cum totam ratione est.</h5>
    <br>
    <button class="btn btn-primary" type="button">Apply now!</button>
