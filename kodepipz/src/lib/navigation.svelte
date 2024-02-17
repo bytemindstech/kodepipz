@@ -99,11 +99,14 @@
 <style>
   nav a {
     font-size: large;
-    color: white;
+    color: lightcyan;
   }
 
 nav a:active{
   color: blue;
+}
+nav a:hover{
+  color: gray;
 }
   nav {
     z-index: 1;

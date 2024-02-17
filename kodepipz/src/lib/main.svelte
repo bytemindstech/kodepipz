@@ -63,4 +63,17 @@ font-weight: 400;
   ul li h5 {
     font-weight: 300;
   }
+  .col-md-6 {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .col-md-6 img {
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .col-md-6:hover img {
+      transform: translateY(-10px);
+    }
+    
    </style>

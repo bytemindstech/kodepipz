@@ -1,6 +1,7 @@
 <script lang="ts">
-let title= "Core Values";
+let title= "We have the following:";
 </script>
+<br>
 <br>
 <div><center><h1>{title}</h1></div>
        <div class="container">
