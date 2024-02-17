@@ -29,11 +29,11 @@
 <style>
   .hero {
     background-color: white;
-    padding-top: 30px;
+    padding-top: 25px;
   }
   .btn {
-    padding-bottom: 10px;
-       padding-top: 10px;
+    padding-bottom: 9px;
+       padding-top: 9px;
       
   }
 

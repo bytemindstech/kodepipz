@@ -8,3 +8,6 @@ export { default as Divider } from "./divider.svelte";
 export { default as Header } from "./header.svelte";
 export { default as Founders } from "./founders.svelte";
 export { default as Visions } from "./visions.svelte";
+export { default as Values } from "./values.svelte";
+export { default as Videos } from "./video.svelte";
+export { default as Join } from "./join.svelte";
