@@ -1,5 +1,5 @@
 <script>
-  import { Header, Navigation, Footer,} from "$lib";
+  import { Header, Navigation, Footer} from "$lib";
 </script>
 <Header />
 <Navigation />

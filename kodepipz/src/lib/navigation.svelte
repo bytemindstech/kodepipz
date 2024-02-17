@@ -1,5 +1,4 @@
 <script lang="ts">
-  import {Header} from "$lib";
   let activeLink: number | null = null;
 
   const setActive = (index: number) => {

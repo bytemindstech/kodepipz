@@ -2,43 +2,44 @@
     let autoplay = false;
      let videoSource = "/src/video/video.mp4";
    </script>
-   <div class="container">
+   <div class="container-fluid" style="background-color: #f5faf8">
+    <br>
+    <br>
        <div class="row">
-           <div class="col-md-6">
+           <div class="col-md-6 ps-sm-5">
                <h2><img src="/webdevicon.png" height="60">Why study web development?</h2><br>
                <h5 style="font-weight: 300;">In today's digital age, businesses and organizations of all sizes rely heavily on an online presence. This has led to a significant demand for skilled web developers who can design, build, and maintain websites and web applications.</h5><br>
                <button class="btn btn-primary" type="submit">Apply now!</button>
            </div>
            <br>
+           <br>
            <div class="col-md-6">
-               <img src="/wonderingguy.jfif" style="height: 300px;">
+               <img src="/wonderingguy.jfif" height="300">
            </div>
        </div>
    
    </div>
-     <br>
-     <br>
-   <hr>
-     <br>
-     <br>
-     <div class="container">
+     <div class="container-fluid" style="background-color: #f5faf8">
        <div class="row">
            <br>
-           <div class="col-md-6">
-               <img src="/online teacher.jpg" style="height: 300px;" >
+           <div class="col-md-6 p-sm-5">
+               <img src="/online teacher.jpg" style="height: 300px; width: 550px;" >
            </div>
            <div class="col-md-6">
+            <br>
+            <br>
               <h2><img src="/onlinelearning.png" height="60">Online Learning</h2>
               <h5 style="font-weight: 300;">At KodePipz, we also offer online tutorial for kids and adults on different subjects. You can pick your preferred teachers or tutors. Do you want to check our available teachers/tutors as well as the subjects we're currently offering?</h5>
               <br><button class="btn btn-primary" type="submit">Signup now!</button>
            </div>
        </div>
-   
+   <br>
+   <br>
    </div>
    <br>
    <br>
-   <hr>
-     <div class="row g-4 py-5 row-cols-1 row-cols-lg-3 container" style="padding-left: 120px;">
+   <div><center><h1>Core Values</h1></div>
+     <div class="row g-4 py-5 row-cols-1 row-cols-lg-3 container-fluid" style="padding-left: 120px;">
        <div class="feature col">
          <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
            <img src="/affordabilityicon.png" alt="" height="60">
@@ -77,30 +78,40 @@
        </div>
      </div>
      <br>
-     <br>
-   <hr>
    <br>
-   <br>
-   <div class="row container" style="padding-left: 20px;">
+   <div class="row container-fluid" style="padding-left: 20px; background-color: #f5faf8;">
      <div class="col-md-6">
+      <br>
+      <br>
        <video {autoplay} controls>
          <source type="video/mp4" src="/src/video/video.mp4"/>
          Your browser does not support the video tag.
        </video>
+       <br>
+       <br>
+       <br>
      </div>
      <div class="col-md-6">
+      <br>
+      <br>
+      <br>
      <h1> Want to join our bootcamp now?</h1>
    <h5 style="font-weight: 300;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum accusantium aspernatur at sapiente dolorem eius facere nobis ipsum itaque et! Libero, natus ex. Tempore aut architecto cum totam ratione est.</h5>
    <br>
    <button class="btn btn-primary" type="button">Apply now!</button>
    </div>
    </div>
-     <br>
-     <br>
+    
    <!--Footer here-->
    <style>
     video {
         width: 630px;
         height: 400px;
     }
+    .btn {
+    padding-bottom: 10px;
+       padding-top: 10px;
+      
+  }
+
    </style>

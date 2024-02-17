@@ -1,31 +1,39 @@
 <script lang="ts">
-    let greet = "WELCOME TO OUR SITE";
+    let greet = "Welcome to our site";
 </script>
 
-<div class="container-fluid hero">
+<div class="container hero">
  <div class="row">
+  <div class="col-md-6 hero1"><br>
+    <h1 style="color: gray; font-size: 60px;">{greet}</h1><br>
+    <h5 style="font-weight: 400; color:gray; font-size: 25px;">Embark on a journey to master web development with our cutting-edge courses and professional services.
+      Unlock the secrets of coding, design stunning websites, and launch your career in the digital realm.
+    </h5>
+    <br>
+    <center><button class="btn btn-primary " type="button" value="submit">Get Started</button></center>
+    <br>
+    </div>
 <div class="col-md-6">
-<aside style="padding-left: 40px;">
-  <img src="/web4.jfif" alt="image"><br><br>
-  <img src="/web2.jfif" alt="image">
-  <img src="/web6.jfif" alt="image">
-</aside>
+ <!-- <img src="/dualcomp.jfif" alt="image"><br><br>
+  <img src="/web7.jfif" alt="image"> -->
+  <img src="/web7.jfif" alt="image" height="400">
+  
 <br>
 <br>
 </div>
-<div class="col-md-6 hero1"><br>
-<h1 style="color: white;">{greet}</h1><br>
-<h5 style="font-weight: 300; color: white;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure eaque voluptate, eligendi omnis consequatur nihil similique totam. Magnam, doloribus. Ut corporis sapiente corrupti accusamus fugiat nesciunt ipsam inventore odio magni.</h5>
-<br>
-<center><button class="btn btn-primary " type="button" value="submit">Get Started</button></center>
-<br>
-</div>
+
  </div>
 </div>
+<br>
 <style>
   .hero {
-    background-color: #185863;
+    background-color: white;
     padding-top: 30px;
+  }
+  .btn {
+    padding-bottom: 10px;
+       padding-top: 10px;
+      
   }
 
  
