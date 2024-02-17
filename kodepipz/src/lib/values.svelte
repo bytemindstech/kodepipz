@@ -1,5 +1,5 @@
 <script lang="ts">
-let title= "We have the following:";
+let title= "We got you covered!";
 </script>
 <br>
 <br>

@@ -1,4 +1,4 @@
-<footer style="background-color: #010114;">
+<footer style="background-color:#0e0e30;">
   <br>
   <ul class="nav justify-content-center pb-3 mb-3">
     <li class="nav-item">

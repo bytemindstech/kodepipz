@@ -11,3 +11,4 @@ export { default as Visions } from "./visions.svelte";
 export { default as Values } from "./values.svelte";
 export { default as Videos } from "./video.svelte";
 export { default as Join } from "./join.svelte";
+export { default as Teamate } from "./teamate.svelte";
