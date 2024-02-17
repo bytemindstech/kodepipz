@@ -9,6 +9,5 @@
 <Values/>
 <Divider/>
 <Videos/>
-<Divider/>
 <Join/>
 

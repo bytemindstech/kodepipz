@@ -1,10 +1,10 @@
-<div class="container-fluid" style="background-color: #bfbfbf">
+<div class="container-fluid" style="background-color: #f0f0f7">
     <br>
     <br>
     <div class="row">
       <div class="col-sm-3">
-       <h2 class="services">Services</h2>
-       <ul>
+       <h3 class="services">Services</h3>
+       <ul> 
         <li><h5>Web Development</h5></li>
         <li><h5>Search Engine Optimization</h5></li>
         <li><h5>Communication Skills Enhancement Training</h5></li>
@@ -13,7 +13,7 @@
        </ul>
       </div>
       <div class="col-sm-3">
-        <h2 class="join">Join Our Team</h2>
+        <h3 class="join">Join Our Team</h3>
         <ul>
           <li><h5>Social Media Manager</h5></li>
           <li><h5>Facebook Ads Manager</h5></li>
@@ -22,7 +22,7 @@
         </ul>
       </div>
       <div class="col-sm-3">
-        <h2 class="join">Others</h2>
+        <h3 class="join">Others</h3>
       <ul>
         <li><h5>Advertise With Us</h5></li>
         <li><h5>News</h5></li>

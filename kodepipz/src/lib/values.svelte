@@ -2,10 +2,10 @@
 let title= "Core Values";
 </script>
 <br>
-<br>
 <div><center><h1>{title}</h1></div>
-        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3 container-fluid" style="padding-left: 120px;">
-          <div class="feature col">
+       <div class="container">
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="feature col-sm-4 my-column" style="width: 400px;">
             <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
               <img src="/affordabilityicon.png" alt="" height="60">
             </div>
@@ -17,7 +17,7 @@ let title= "Core Values";
               <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
             </a>
           </div>
-          <div class="feature col">
+          <div class="feature col-sm-4 my-column" style="width: 400px;">
             <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
               <img src="/flexibilityicon.png" alt="" height="60">
             </div>
@@ -29,7 +29,7 @@ let title= "Core Values";
               <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
             </a>
           </div>
-          <div class="feature col">
+          <div class="feature col-sm-4 my-column" style="width: 400px;">
             <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
               <img src="/accessibilityicon.png" alt="" height="60">
             </div>
@@ -42,3 +42,28 @@ let title= "Core Values";
             </a>
           </div>
         </div>
+
+       </div>
+        <style>
+           .my-column {
+    border-right: 1px solid #ddd; /* Adjust the color and thickness as needed */
+    padding-right: 15px; /* Adjust spacing between content and border */
+    margin-right: 15px; /* Adjust spacing between columns */
+  }
+
+  /* Style for the last column to remove the right border */
+  .my-column:last-child {
+    border-right: none;
+    padding-right: 0;
+    margin-right: 0;
+  }
+    @media (max-width: 767px) {
+    .my-column {
+      border-right: none; /* Remove border on smaller screens */
+      padding-right: 0; /* Remove spacing between content and border */
+      margin-right: 0; /* Remove spacing between columns */
+      margin-bottom: 15px; /* Add spacing between columns vertically */
+    }
+  }
+  
+        </style>
