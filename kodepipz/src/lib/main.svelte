@@ -101,7 +101,33 @@
    <button class="btn btn-primary" type="button">Apply now!</button>
    </div>
    </div>
-    
+   <div class="container">
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-sm-3">
+       <h2 class="services">Services</h2>
+       <ul>
+        <li><h5>Web Development</h5></li>
+        <li><h5>Search Engine Optimization</h5></li>
+        <li><h5>Communication Skills Enhancement Training</h5></li>
+        <li><h5>Facebook Ads</h5></li>
+        <li><h5>Social Media Management</h5></li>
+       </ul>
+      </div>
+      <div class="col-sm-3">
+        <h2 class="join">Join Our Team</h2>
+        <ul>
+          <li><h5>Social Media Manager</h5></li>
+          <li><h5>Facebook Ads Manager</h5></li>
+          <li><h5>Acquisition Specialist</h5></li>
+          <li><h5>Web Developer Intern</h5></li>
+        </ul>
+      </div>
+      <div class="col-sm-3"></div>
+      <div class="col-sm-3"></div>
+    </div>
+  </div>
    <!--Footer here-->
    <style>
     video {
@@ -114,4 +140,13 @@
       
   }
 
+  .services {
+    font-weight: 400;
+  }
+  .join {
+font-weight: 400;
+  }
+  .nav-item li a {
+    color: white;
+  }
    </style>

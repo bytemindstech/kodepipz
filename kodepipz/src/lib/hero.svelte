@@ -1,7 +1,6 @@
 <script lang="ts">
     let greet = "Welcome to our site";
 </script>
-
 <div class="container hero">
  <div class="row">
   <div class="col-md-6 hero1"><br>
@@ -16,7 +15,9 @@
 <div class="col-md-6">
  <!-- <img src="/dualcomp.jfif" alt="image"><br><br>
   <img src="/web7.jfif" alt="image"> -->
-  <img src="/web7.jfif" alt="image" height="400">
+  <img src="/web1.jfif" alt="image" height="200"><br>
+  <img src="/web3.jfif" alt="image" height="200">
+  <img src="/web5.jfif" alt="image" height="200">
   
 <br>
 <br>
