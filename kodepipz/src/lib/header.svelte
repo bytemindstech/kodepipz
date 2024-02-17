@@ -13,6 +13,7 @@
        padding-left: 100px;
        padding-bottom: 10px;
        padding-top: 16px;
+       background-color: whitesmoke;
       
     }
     .span1{

@@ -3,7 +3,7 @@
             <style>
                 .divider{
                     background-color: whitesmoke;
-                    height: 15px;
+                    height: 10px;
                 }
 
                 </style>
