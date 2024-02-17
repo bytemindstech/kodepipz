@@ -19,7 +19,7 @@
        </div>
    
    </div>
-     <div class="container-fluid" style="background-color: #f5faf8">
+     <div class="container-fluid" style="background-color: whitesmoke">
        <div class="row">
            <br>
            <div class="col-md-6 p-sm-5">

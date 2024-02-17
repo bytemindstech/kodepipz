@@ -2,7 +2,7 @@
   let autoplay = false;
    let videoSource = "/src/video/video.mp4";
  </script>
-<div class="row container-fluid" style="padding-left: 20px; background-color: #f5faf8;">
+<div class="row container-fluid" style="padding-left: 20px; background-color: whitesmoke;">
     <div class="col-md-6">
      <br>
      <br>
