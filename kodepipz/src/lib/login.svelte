@@ -11,7 +11,7 @@
   <input type="text" id="username" name="username" placeholder="username" required><br>
   <label for="password">Password</label><br>
   <input type="password" id="pass" name="password" placeholder="password" required><br>
-  <p>Don't have an account<a href=""><u>Register</u></a></p>
+  <p>Don't have an account yet? <a href=""><u>Register</u></a></p>
   <input type="submit" value="submit">
  </form>
  <br>

@@ -8,7 +8,7 @@
        <div class="row">
            <div class="col-md-6 ps-sm-5">
                <h2><img src="/webdevicon.png" height="60">Why study web development?</h2><br>
-               <h5 style="font-weight: 300;">In today's digital age, businesses and organizations of all sizes rely heavily on an online presence. This has led to a significant demand for skilled web developers who can design, build, and maintain websites and web applications.</h5><br>
+               <h5 style="font-weight: 400;">In today's digital age, businesses and organizations of all sizes rely heavily on an online presence. This has led to a significant demand for skilled web developers who can design, build, and maintain websites and web applications.</h5><br>
                <button class="btn btn-primary" type="submit">Apply now!</button>
            </div>
            <br>
@@ -29,7 +29,7 @@
             <br>
             <br>
               <h2><img src="/onlinelearning.png" height="60">Online Learning</h2>
-              <h5 style="font-weight: 300;">At KodePipz, we also offer online tutorial for kids and adults on different subjects. You can pick your preferred teachers or tutors. Do you want to check our available teachers/tutors as well as the subjects we're currently offering?</h5>
+              <h5 style="font-weight: 400;">At KodePipz, we also offer online tutorial for kids and adults on different subjects. You can pick your preferred teachers or tutors. Do you want to check our available teachers/tutors as well as the subjects we're currently offering?</h5>
               <br><button class="btn btn-primary" type="submit">Signup now!</button>
            </div>
        </div>

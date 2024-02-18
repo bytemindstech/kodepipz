@@ -4,8 +4,8 @@
 <div class="container hero">
  <div class="row">
   <div class="col-md-6 hero1"><br>
-    <h1 style="color: gray; font-size: 60px;">{greet}</h1><br>
-    <h5 style="font-weight: 400; color:gray; font-size: 25px;">Embark on a journey to start web development with our cutting-edge courses and professional services.
+    <h1 style="font-size: 60px;">{greet}</h1><br>
+    <h5 style="font-weight: 600; font-size: 25px;">Embark on a journey to start web development with our cutting-edge courses and professional services.
       Unlock the secrets of coding, design stunning websites, and launch your career in the digital realm.
     </h5>
     <br>
