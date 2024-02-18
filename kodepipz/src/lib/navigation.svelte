@@ -5,8 +5,18 @@
     activeLink = index;
   };
 </script>
+<<<<<<< HEAD
 <nav class="navbar navbar-expand-lg container-fluid">
   <div class="container">
+=======
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary container-fluid">
+  <div class="container">
+    <a class="navbar-brand" href="/"
+      ><span style="color:blue;">Kode</span><span style="color:red;">Pipz</span
+      ></a
+    >
+>>>>>>> 3d8238e4538b957c859f69dd0f0749bbc4250a90
     <button
       class="navbar-toggler"
       type="button"
@@ -16,10 +26,17 @@
       aria-expanded="false"
       aria-label="Toggle navigation"
     >
+<<<<<<< HEAD
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li></li>
+=======
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+>>>>>>> 3d8238e4538b957c859f69dd0f0749bbc4250a90
         <li class="nav-item">
           <a
             class="nav-link {activeLink === 1 ? 'active' : ' '}"
@@ -89,7 +106,11 @@
           placeholder="Search"
           aria-label="Search"
         />
+<<<<<<< HEAD
         <button class="btn btn-outline-danger" type="submit">Search</button>
+=======
+        <button class="btn btn-outline-success" type="submit">Search</button>
+>>>>>>> 3d8238e4538b957c859f69dd0f0749bbc4250a90
       </form>
     </div>
   </div>
@@ -98,6 +119,7 @@
 <style>
   nav a {
     font-size: large;
+<<<<<<< HEAD
     color: lightcyan;
   }
 
@@ -110,11 +132,18 @@ nav a:hover{
   nav {
     z-index: 1;
     
+=======
+  }
+  nav {
+    position: fixed;
+    z-index: 1;
+>>>>>>> 3d8238e4538b957c859f69dd0f0749bbc4250a90
   }
 
   .active {
     font-weight: bold;
   }
+<<<<<<< HEAD
   .navbar {
     background-color:#16174d;padding-top: 15px;
     padding-bottom: 15px;
@@ -129,4 +158,6 @@ color: lightblue;
   .span2 {
     color: red;
   }
+=======
+>>>>>>> 3d8238e4538b957c859f69dd0f0749bbc4250a90
 </style>

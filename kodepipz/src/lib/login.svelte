@@ -1,6 +1,7 @@
 <div class="container">
   <div class="row">
     <div class="col mt-5">
+<<<<<<< HEAD
   <center>    <h3>Login</h3></center>
     </div>
   </div>
@@ -55,3 +56,10 @@
   background-color: #45a049;
 }
 </style>
+=======
+      <h1>Login</h1>
+      <p>This is a Login page</p>
+    </div>
+  </div>
+</div>
+>>>>>>> 3d8238e4538b957c859f69dd0f0749bbc4250a90
