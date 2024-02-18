@@ -2,14 +2,10 @@
 	export let data;
 </script>
 <br>
-<br>
-<br>
-<br>
 <div class="layout container">
 	<main class="container">
 		<slot />
 	</main>
-
 	<aside>
 		<h2>More posts</h2>
 		<ul>

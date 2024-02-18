@@ -2,8 +2,6 @@
 	export let data;
 </script>
 <br>
-<br>
-<br>
 <div class="container">
 	<img src="/blogicon.png" alt="" height="60">
 <br>

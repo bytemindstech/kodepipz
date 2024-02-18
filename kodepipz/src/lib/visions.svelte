@@ -24,4 +24,10 @@
         <br>
       </div>
     
-    
+    <style>
+
+    .card {
+width: 400px;
+padding-right: 10px;
+    }
+    </style>

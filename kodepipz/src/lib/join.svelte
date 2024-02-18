@@ -1,4 +1,4 @@
-<div class="container-fluid" style="background-color: #f0f0f7">
+<div class="container-fluid" style="background-color: whitesmoke;">
     <br>
     <br>
     <div class="row">
@@ -25,7 +25,7 @@
         <h3 class="join">Others</h3>
       <ul>
         <li><h5>Advertise With Us</h5></li>
-        <li><h5>News</h5></li>
+        <li><h5>Terms Of Service</h5></li>
         <li><h5>Contact Us</h5></li>
       </ul>
       </div>
