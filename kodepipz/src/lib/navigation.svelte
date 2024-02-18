@@ -5,7 +5,6 @@
     activeLink = index;
   };
 </script>
-
 <nav class="navbar navbar-expand-lg container-fluid">
   <div class="container">
     <button
@@ -17,10 +16,10 @@
       aria-expanded="false"
       aria-label="Toggle navigation"
     >
-      <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li></li>
         <li class="nav-item">
           <a
             class="nav-link {activeLink === 1 ? 'active' : ' '}"
@@ -123,5 +122,11 @@ nav a:hover{
   }
   .dropdown-menu li a {
     color: black;
+  }
+  .span1{
+color: lightblue;
+  }
+  .span2 {
+    color: red;
   }
 </style>
