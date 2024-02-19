@@ -129,4 +129,8 @@ color: lightblue;
   .span2 {
     color: red;
   }
+  .navbar-toggler{
+    color: white;
+    background-color: white;
+  }
 </style>

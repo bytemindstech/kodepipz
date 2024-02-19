@@ -1,12 +1,13 @@
 <script>
 	export let data;
 </script>
-<br>
-<div class="layout container">
+<div class="layout container-fluid">
 	<main class="container">
+		<br>
 		<slot />
 	</main>
 	<aside>
+		<br>
 		<h2>More posts</h2>
 		<ul>
 			{#each data.summaries as { slug, title }}
@@ -25,5 +26,8 @@
 			gap: 2em;
 			grid-template-columns: 1fr 16em;
 		}
+	}
+	.layout{
+		background-color: whitesmoke;
 	}
 </style>

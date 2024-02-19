@@ -3,7 +3,7 @@
    let videoSource = "/src/video/video.mp4";
  </script>
 <div class="row container-fluid" style="padding-left: 20px;">
-    <div class="col-md-6">
+    <div class="col-sm-6">
      <br>
      <br>
       <video {autoplay} controls>
@@ -14,7 +14,7 @@
       <br>
       <br>
     </div>
-    <div class="col-md-6">
+    <div class="col-sm-6">
      <br>
      <br>
      <br>

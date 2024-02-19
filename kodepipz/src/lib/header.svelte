@@ -7,7 +7,7 @@
             <button class="btn btn-danger" style="padding-top: 7px; padding-bottom: 7px;">Our Promo</button> <button class="btn btn-info"  style="padding-top: 7px; padding-bottom: 7px;">Inquire now</button>
         </div>
     </div>
-    <marquee style="color: black; font-size: 18px; font-weight: 500;"><img src="/promo.jfif" style="height: 30px; color: blue;">WE HAVE A <strong style="color: red; font-weight: bold;">PROMO</strong> FOR YOU TO START LEARNING WEB DEVELOPMENT AND OTHER COURSES WE HAVE. </marquee>
+    <marquee style="color: black; font-size: 18px; font-weight: 200;"><img src="/promo.jfif" style="height: 30px; color: blue;">WE HAVE A <strong style="color: red; font-weight: bold;">PROMO</strong> FOR YOU TO START LEARNING WEB DEVELOPMENT AND OTHER COURSES WE HAVE. </marquee>
 </div>
 <style>
     .header {
@@ -22,7 +22,6 @@
     }
     .span2 {
         color: red;
-        font-family:cursive;
         font-size: 40px;
     }
     .btn {

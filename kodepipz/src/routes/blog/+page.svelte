@@ -2,7 +2,7 @@
 	export let data;
 </script>
 <br>
-<div class="container">
+<div class="container-fluid">
 	<img src="/blogicon.png" alt="" height="60">
 <br>
 <br>
@@ -13,3 +13,11 @@
 </ul>
 
 </div>
+<style>
+	.container {
+		background-color: whitesmoke;
+	}
+	ul li {
+		font-weight: 400;
+	}
+</style>
