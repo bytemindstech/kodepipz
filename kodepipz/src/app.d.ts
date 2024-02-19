@@ -1,6 +1,6 @@
 // See https://kit.svelte.dev/docs/types#app
 
-import type { PrismaClient } from "@prisma/client/extension";
+import type { PrismaClient } from "@prisma/client";
 
 // for information about these interfaces
 declare global {
@@ -19,7 +19,7 @@ declare global {
     id: string;
     username: string;
     email: string;
-    createAt?: Date;
+    createdAt?: Date;
     firstName: string;
     lastName: string;
     password: string;

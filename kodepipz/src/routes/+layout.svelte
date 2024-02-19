@@ -4,5 +4,7 @@
 
 <Header />
 <Navigation />
+
 <slot />
+
 <Footer />
