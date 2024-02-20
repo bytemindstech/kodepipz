@@ -23,7 +23,7 @@ export const actions: Actions = {
       };
       await UserService.createUser(newUser);
     } catch (error) {
-      console.log(error);
+      console.error((error as Error).message);
       return fail(500, { message: "User registration failed" });
     }
 
