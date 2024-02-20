@@ -1,5 +1,5 @@
 <script>
-	import {Hero, Main, Divider, Values, Videos, Join } from "$lib";
+	import {Hero, Main, Divider, Values, Videos, } from "$lib";
  
   </script>
 <Hero/>
@@ -9,5 +9,4 @@
 <Values/>
 <Divider/>
 <Videos/>
-<Join/>
 

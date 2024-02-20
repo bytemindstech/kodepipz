@@ -1,5 +1,5 @@
 <script lang="ts">
-	import {Divider, Founders, Visions, Teamate } from "$lib";
+	import {Divider, Founders, } from "$lib";
 	
 </script>
 <br>
@@ -8,5 +8,3 @@
 <br>
 <Founders/>
 <Divider/>
-<Visions />
-<Teamate/>

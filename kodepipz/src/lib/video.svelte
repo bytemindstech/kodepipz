@@ -19,7 +19,7 @@
      <br>
      <br>
     <h2> Embark on Your Coding Odyssey: Join Our Web Development Bootcamp Today!</h2>
-  <h5 style="font-weight: 400;">Are you ready to take the leap into the dynamic world of web development? If you're passionate about creating innovative websites and applications, our Web Development Bootcamp is the perfect launchpad for your coding journey. Brace yourself for an immersive learning experience that will not only equip you with the latest industry skills but also transform you into a proficient and sought-after web developer.</h5>
+  <h5 style="font-weight: 300;">Are you ready to take the leap into the dynamic world of web development? If you're passionate about creating innovative websites and applications, our Web Development Bootcamp is the perfect launchpad for your coding journey. Brace yourself for an immersive learning experience that will not only equip you with the latest industry skills but also transform you into a proficient and sought-after web developer.</h5>
   <br>
   <button class="btn btn-primary" type="button">Apply now!</button>
   </div>

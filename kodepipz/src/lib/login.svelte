@@ -8,7 +8,7 @@
 
  <form class="form">
   <label for="username">Username</label><br>
-  <input type="text" id="username" name="username" placeholder="username" required><br>
+  <input type="text" id="username" name="username" placeholder="username" required>
   <label for="password">Password</label><br>
   <input type="password" id="pass" name="password" placeholder="password" required><br>
   <p>Don't have an account yet? <a href=""><u>Register</u></a></p>

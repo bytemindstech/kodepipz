@@ -27,5 +27,7 @@
     .btn {
         font-size: large;
     }
-  
+  marquee {
+    font-family: cursive;
+  }
 </style>
