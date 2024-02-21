@@ -1,6 +1,6 @@
 <script>
+  import { enhance } from "$app/forms";
   import {
-    Form,
     FormGroup,
     Input,
     Button,
@@ -15,7 +15,7 @@
   <Row>
     <Col class="my-5"
       ><Card body class="shadow p-4"
-        ><Form method="POST" action="?/register">
+        ><form method="POST" use:enhance>
           <FormGroup floating label="username">
             <Input placeholder="username" type="text" name="username" />
           </FormGroup>
@@ -31,11 +31,13 @@
           <FormGroup floating label="password">
             <Input placeholder="password" type="password" name="password" />
           </FormGroup>
-        </Form>
-        <Button color="primary" type="submit">Register</Button>
+          <Button color="primary" type="submit">Register</Button>
+        </form>
       </Card>
     </Col>
   </Row>
 </Container>
 
-<style></style>
+<style>
+ 
+</style>

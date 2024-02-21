@@ -1,10 +1,10 @@
 import type { Actions } from "./$types";
-import { fail } from "@sveltejs/kit";
+import { fail, redirect } from "@sveltejs/kit";
 import * as UserService from "$lib/server/user.service";
 import bcrypt from "bcrypt";
 
 export const actions: Actions = {
-  registerUser: async ({ request }) => {
+  default: async ({ request }) => {
     const formData = Object.fromEntries(await request.formData());
     const { username, email, firstName, lastName, password } = formData as {
       [key: string]: string;
@@ -27,8 +27,6 @@ export const actions: Actions = {
       return fail(500, { message: "User registration failed" });
     }
 
-    return {
-      status: 201,
-    };
+    throw redirect(303, "/login");
   },
 };
