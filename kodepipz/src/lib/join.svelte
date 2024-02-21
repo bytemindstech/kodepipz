@@ -53,5 +53,9 @@ font-weight: 400;
   }
   li a {
     text-decoration: none;
+    color: black;
+  }
+  li a:hover {
+    text-decoration: underline;
   }
   </style>
