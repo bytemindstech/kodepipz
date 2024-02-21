@@ -24,7 +24,7 @@
       <div class="col-sm-3">
         <h3 class="join">Others</h3>
       <ul>
-        <li><h5><a href="">Join as a Freelancer Tutor</a></h5></li>
+        <li><h5><a href="">Join as a Freelance Tutor</a></h5></li>
         <li><h5><a href="">Terms Of Service</a></h5></li>
         <li><h5><a href="">Contact Us</a></h5></li>
       </ul>
