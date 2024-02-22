@@ -1,135 +1,30 @@
 <script lang="ts">
   import { page } from "$app/stores";
-  $: currentPath = $page.url.pathname;
+  import { TabAnchor, TabGroup } from "@skeletonlabs/skeleton";
 </script>
 
-<nav class="navbar navbar-expand-lg container-fluid">
-  <div class="container">
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a
-            class="nav-link"
-            aria-current={currentPath === "/"}
-            href="/"
-            class:active={currentPath === "/"}
-            >Home
-          </a>
-        </li>
-        <li class="nav-item">
-          <a
-            class="nav-link"
-            aria-current={currentPath === "/about"}
-            href="/about"
-            class:active={currentPath === "/about"}
-            >About
-          </a>
-        </li>
+<TabGroup
+  justify="justify-start"
+  active="variant-filled-primary"
+  hover="hover:variant-soft-secondary"
+  flex="flex-1 lg:flex-none"
+  rounded="rounded"
+  border=""
+  class="bg-surface-100-800-token w-full"
+>
+  <TabAnchor href="/" selected={$page.url.pathname === "/"}>
+    <svelte:fragment slot="lead">Home</svelte:fragment>
+  </TabAnchor>
 
-        <li class="nav-item dropdown">
-          <a
-            class="nav-link"
-            href="/"
-            role="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            Categories
-          </a>
-          <ul class="dropdown-menu">
-            <li>
-              <a class="dropdown-item" href="/blog">Blog </a>
-            </li>
-            <li>
-              <a
-                class="dropdown-item"
-                href="https://classroom.jhenbert.com/?redirect=0"
-                >Courses
-              </a>
-            </li>
-            <li>
-              <a
-                class="dropdown-item"
-                href="https://classroom.jhenbert.com/?redirect=0"
-                >Coding for Kids
-              </a>
-            </li>
-            <li><hr class="dropdown-divider" /></li>
-            <li>
-              <a class="dropdown-item" href="./faqs"
-                >Frequently Asked Questions</a
-              >
-            </li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a
-            class="nav-link"
-            aria-current={currentPath === "/login"}
-            href="/login"
-            class:active={currentPath === "/login"}
-            >Login
-          </a>
-        </li>
-      </ul>
-      <form class="d-flex" role="search">
-        <input
-          class="form-control me-2"
-          type="search"
-          placeholder="Search"
-          aria-label="Search"
-        />
-        <button class="btn btn-outline-danger" type="submit">Search</button>
-      </form>
-    </div>
-  </div>
-</nav>
+  <TabAnchor href="/about" selected={$page.url.pathname === "/about"}>
+    <svelte:fragment slot="lead">About</svelte:fragment>
+  </TabAnchor>
+
+  <TabAnchor href="/" selected={$page.url.pathname === "/"}>
+    <svelte:fragment slot="lead">Categories</svelte:fragment>
+  </TabAnchor>
+  <!-- ... -->
+</TabGroup>
 
 <style>
-  nav a {
-    font-size: large;
-    color: lightcyan;
-  }
-
-  nav a:active {
-    color: blue;
-  }
-  nav a:hover {
-    color: gray;
-  }
-  nav {
-    z-index: 1;
-  }
-
-  .active {
-    font-weight: bold;
-  }
-  .navbar {
-    background-color: #16174d;
-    padding-top: 15px;
-    padding-bottom: 15px;
-  }
-  .dropdown-menu li a {
-    color: black;
-  }
-  .span1 {
-    color: lightblue;
-  }
-  .span2 {
-    color: red;
-  }
-  .navbar-toggler{
-    color: white;
-    background-color: white;
-  }
 </style>
