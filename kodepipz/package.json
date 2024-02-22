@@ -32,7 +32,7 @@
   },
   "type": "module",
   "dependencies": {
-    "@prisma/client": "^5.9.1",
+    "@prisma/client": "^5.10.2",
     "bcrypt": "^5.1.1"
   }
 }
