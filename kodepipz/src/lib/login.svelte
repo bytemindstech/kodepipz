@@ -24,7 +24,8 @@
     required
   /><br />
   <p>Don't have an account<a href=""><u>Register</u></a></p>
-  <input type="submit" value="submit" />
+  <button type="submit" class="btn variant-filled-primary w-full mt-2">Submit</button
+  >
 </form>
 <br />
 <br />

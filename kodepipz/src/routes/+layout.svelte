@@ -1,4 +1,5 @@
 <script>
+  import "../app.pcss";
   import { page } from "$app/stores";
   import { Header, Navigation, Footer, Login, Register } from "$lib";
 </script>
