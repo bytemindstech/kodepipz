@@ -1,15 +1,15 @@
 <script lang="ts">
-    let greet = "Welcome to our site";
+    let greet = "Are you looking for a web development course that is super affordable?";
 </script>
 <div class="container hero">
  <div class="row">
   <div class="col-md-6 hero1"><br>
-    <h1 style="font-size: 60px;">{greet}</h1><br>
+    <h2 style="font-size: 60px;">{greet}</h2><br>
     <h5 style="font-weight: 300; font-size: 25px;">Embark on a journey to start web development with our cutting-edge courses and professional services.
       Unlock the secrets of coding, design stunning websites, and launch your career in the digital realm.
     </h5>
     <br>
-    <center><button class="btn btn-primary " type="button" value="submit">Get Started</button></center>
+    <center><button class="btn btn-primary " type="button" value="submit">GET STARTED</button></center>
     <br>
     </div>
 <div class="col-md-6">
