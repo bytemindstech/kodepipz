@@ -15,7 +15,7 @@
       <AppBar>
         <svelte:fragment slot="lead"
           ><h3 class="text-4xl font-bold mx-5">
-            <span class="text-blue-900">Kode</span><span class="text-red-900"
+            <span class="text-primary-800">Kode</span><span class="text-red-700"
               >Pipz</span
             >
           </h3></svelte:fragment
