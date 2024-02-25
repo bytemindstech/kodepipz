@@ -1,8 +1,20 @@
 <script>
-  import "../app.pcss";
+  import {
+    computePosition,
+    autoUpdate,
+    offset,
+    shift,
+    flip,
+    arrow,
+  } from "@floating-ui/dom";
+  import { storePopup } from "@skeletonlabs/skeleton";
   import { AppShell, AppBar } from "@skeletonlabs/skeleton";
   import { Header, Navigation, Footer, Join, Login, Register } from "$lib";
   import { page } from "$app/stores";
+  import "../app.pcss";
+
+  //requirement for popup
+  storePopup.set({ computePosition, autoUpdate, offset, shift, flip, arrow });
 </script>
 
 {#if $page.url.pathname === "/login"}
@@ -21,7 +33,11 @@
           </h3></svelte:fragment
         >
         <Navigation />
-        <svelte:fragment slot="trail">(actions)</svelte:fragment>
+        <svelte:fragment slot="trail"
+          ><a href="/login"
+            ><button class="btn variant-filled-primary">Login</button></a
+          ></svelte:fragment
+        >
       </AppBar>
     </svelte:fragment>
 

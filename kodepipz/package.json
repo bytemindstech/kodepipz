@@ -34,6 +34,7 @@
   },
   "type": "module",
   "dependencies": {
+    "@floating-ui/dom": "^1.6.3",
     "@prisma/client": "^5.10.2",
     "bcrypt": "^5.1.1"
   }

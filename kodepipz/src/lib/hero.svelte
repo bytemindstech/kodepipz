@@ -1,53 +1,62 @@
 <script lang="ts">
-    let greet = "Welcome to our site";
+  import img1 from "/src/images/web1.jfif";
+  import img2 from "/src/images/web3.jfif";
+  import img3 from "/src/images/web5.jfif";
 </script>
-<div class="container hero">
- <div class="row">
-  <div class="col-md-6 hero1"><br>
-    <h1 style="font-size: 60px;">{greet}</h1><br>
-    <h5 style="font-weight: 300; font-size: 25px;">Embark on a journey to start web development with our cutting-edge courses and professional services.
-      Unlock the secrets of coding, design stunning websites, and launch your career in the digital realm.
-    </h5>
-    <br>
-    <center><button class="btn btn-primary " type="button" value="submit">Get Started</button></center>
-    <br>
+
+<section class="my-10 py-4">
+  <div class="container mx-auto">
+    <div class="md:flex md:items-center md:justify-between p-4">
+      <div class="md:w-1/2 md:pr-8">
+        <h1 class="md:text-6xl text-4xl font-bold mb-7">Welcome to our site</h1>
+
+        <h5 class="font-light text-xl text-justify mb-7">
+          Embark on a journey to start web development with our cutting-edge
+          courses and professional services. Unlock the secrets of coding,
+          design stunning websites, and launch your career in the digital realm.
+        </h5>
+
+        <button class="btn btn-xl variant-filled-primary" type="button"
+          >Get Started
+        </button>
+      </div>
+
+      <div
+        class="flex mt-8 space-x-4 items-center justify-center md:w-1/2 md:mt-0 md:relative md:ps-4"
+      >
+        <img
+          src={img1}
+          alt="hero-img"
+          class="shrink md:absolute md:left-0 md:bottom-0"
+        />
+        <img
+          src={img2}
+          alt="hero-img"
+          class="shrink md:absolute md:left-0 md:bottom-0 md:translate-x-full md:translate-y-full"
+        />
+        <img
+          src={img3}
+          alt="hero-img"
+          class="hidden md:block md:absolute md:left-0 md:bottom-0 md:translate-x-full md:translate-y-1/2"
+        />
+      </div>
     </div>
-<div class="col-md-6">
- <!-- <img src="/dualcomp.jfif" alt="image"><br><br>
-  <img src="/web7.jfif" alt="image"> -->
-  <img src="/web1.jfif" alt="image" height="200"><br>
-  <img src="/web3.jfif" alt="image" height="200">
-  <img src="/web5.jfif" alt="image" height="200">
-  
-<br>
-<br>
-</div>
+  </div>
+</section>
 
- </div>
-</div>
-<br>
 <style>
-  .hero {
-    background-color: white;
-    padding-top: 25px;
-  }
-  .btn {
-    padding-bottom: 9px;
-       padding-top: 9px;
-      
+  .container img:nth-child(1) {
+    z-index: 3;
+    min-height: 200px;
   }
 
-  .col-md-6 {
-      position: relative;
-      overflow: hidden;
-    }
+  .container img:nth-child(2) {
+    z-index: 2;
+    min-height: 180px;
+  }
 
-    .col-md-6 img {
-      transition: transform 0.3s ease-in-out;
-    }
-
-    .col-md-6:hover img {
-      transform: translateY(-10px);
-    }
-    
+  .container img:nth-child(3) {
+    z-index: 1;
+    min-height: 230px;
+  }
 </style>
