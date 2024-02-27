@@ -14,7 +14,7 @@
            <br>
            <br>
            <div class="col-md-6">
-               <img src="/htmlcssjs.png" height="300">
+               <img src="/coder.jfif" style="height: 300px; width: 550px;"  class="image-with-shadow ">
            </div>
        </div>
    
@@ -23,7 +23,7 @@
        <div class="row">
            <br>
            <div class="col-md-6 p-sm-5">
-               <img src="/online teacher.jpg" style="height: 300px; width: 550px;" >
+               <img src="/online teacher.jpg" style="height: 300px; width: 550px;"  class="image-with-shadow" >
            </div>
            <div class="col-md-6">
             <br>
@@ -75,5 +75,15 @@ font-weight: 400;
     .col-md-6:hover img {
       transform: translateY(-10px);
     }
-    
+    .image-with-shadow{
+      
+      display: block;
+      max-width: 100%;
+      height: auto;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Adjust the shadow values as needed */
+    }
+  .image-container {
+      width: 600px;
+  }
+
    </style>

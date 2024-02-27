@@ -66,5 +66,31 @@ let title= "We got you covered!";
       margin-bottom: 15px; /* Add spacing between columns vertically */
     }
   }
-  
+  .my-column {
+    border-right: 1px solid #ddd; /* Adjust the color and thickness as needed */
+    padding-right: 15px; /* Adjust spacing between content and border */
+    margin-right: 15px; /* Adjust spacing between columns */
+    transition: box-shadow 0.3s ease; /* Add transition for smooth effect */
+}
+
+.my-column:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adjust the shadow properties as needed */
+}
+
+/* Style for the last column to remove the right border */
+.my-column:last-child {
+    border-right: none;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+@media (max-width: 767px) {
+    .my-column {
+        border-right: none; /* Remove border on smaller screens */
+        padding-right: 0; /* Remove spacing between content and border */
+        margin-right: 0; /* Remove spacing between columns */
+        margin-bottom: 15px; /* Add spacing between columns vertically */
+    }
+}
+
         </style>

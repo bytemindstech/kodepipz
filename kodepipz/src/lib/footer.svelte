@@ -2,7 +2,7 @@
   <br>
   <ul class="nav justify-content-center pb-3 mb-3">
     <li class="nav-item">
-      <a href="/" class="nav-link">Facebook</a>
+      <a href="https://www.facebook.com/profile.php?id=61556206230346" class="nav-link">Facebook</a>
     </li>
     <li class="nav-item">
       <a href="#" class="nav-link">Instagram</a>

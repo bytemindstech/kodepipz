@@ -49,5 +49,14 @@
     .col-md-6:hover img {
       transform: translateY(-10px);
     }
-    
+    .btn-primary {
+    transition: transform 0.3s ease; /* Add transition for smooth effect */
+}
+
+.btn-primary:hover {
+    transform: translateY(-5px); /* Adjust the translation value as needed */
+}
+
 </style>
+
+

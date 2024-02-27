@@ -109,6 +109,7 @@ nav a:hover{
 }
   nav {
     z-index: 1;
+    position: fixed;
     
   }
 
@@ -116,7 +117,7 @@ nav a:hover{
     font-weight: bold;
   }
   .navbar {
-    background-color:#16174d;padding-top: 15px;
+    background-color:#0029b0;padding-top: 15px;
     padding-bottom: 15px;
 
   }
