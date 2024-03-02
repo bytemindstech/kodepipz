@@ -4,6 +4,7 @@
   import onlineTeacher from "/src/images/online-teacher.jpg";
   import onlineLearning from "/src/images/onlinelearning.png";
   import { Avatar } from "@skeletonlabs/skeleton";
+  import Icon from "@iconify/svelte";
 </script>
 
 <section class="my-14 min-h-screen">
@@ -18,12 +19,7 @@
       <div class="md:w-1/2 md:pr-8 md:ms-10">
         <div class="md:flex md:flex-col md:items-end mt-5 space-y-3">
           <div class="flex items-center gap-2">
-            <Avatar
-              src={webdevIcon}
-              alt="webdev-icon"
-              width="w-16"
-              rounded="rounded-full"
-            />
+            <Icon icon="streamline:code-monitor-1" width="56" height="56" />
             <h2 class="h2">Why study web development?</h2>
           </div>
 
@@ -50,11 +46,10 @@
         <div class="md:flex md:items-center mt-5 gap-3 space-y-3">
           <div>
             <div class="flex items-center gap-2 mt-5">
-              <Avatar
-                src={onlineLearning}
-                alt="learning-img"
-                width="w-16"
-                rounded="rounded-full"
+              <Icon
+                icon="fluent-mdl2:join-online-meeting"
+                width="56"
+                height="56"
               />
               <h2 class="h2">Online Learning</h2>
             </div>
