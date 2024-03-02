@@ -7,10 +7,11 @@
     flip,
     arrow,
   } from "@floating-ui/dom";
-  import { storePopup } from "@skeletonlabs/skeleton";
+  import { LightSwitch, storePopup } from "@skeletonlabs/skeleton";
   import { AppShell, AppBar } from "@skeletonlabs/skeleton";
   import { Header, Navigation, Footer, Join, Login, Register } from "$lib";
   import { page } from "$app/stores";
+
   import "../app.pcss";
 
   //requirement for popup
@@ -26,18 +27,17 @@
     <svelte:fragment slot="header">
       <AppBar>
         <svelte:fragment slot="lead"
-          ><h3 class="text-4xl font-bold mx-5">
+          ><h2 class="h2">
             <span class="text-primary-800">Kode</span><span class="text-red-700"
               >Pipz</span
             >
-          </h3></svelte:fragment
+          </h2></svelte:fragment
         >
         <Navigation />
         <svelte:fragment slot="trail"
-          ><a href="/login"
-            ><button class="btn variant-filled-primary">Login</button></a
-          ></svelte:fragment
-        >
+          ><a href="/login" class="btn hover:variant-soft-primary">Login</a>
+          <LightSwitch />
+        </svelte:fragment>
       </AppBar>
     </svelte:fragment>
 

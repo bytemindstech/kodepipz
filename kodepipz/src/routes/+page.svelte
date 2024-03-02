@@ -6,6 +6,6 @@
 
 <Main />
 
-<Values />
+<!-- <Values /> -->
 
 <Videos />

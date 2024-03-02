@@ -1,31 +1,47 @@
-<footer style="background-color:#0e0e30;">
-  <br />
-  <ul class="nav justify-content-center pb-3 mb-3">
-    <li class="nav-item">
-      <a href="/" class="nav-link">Facebook</a>
-    </li>
-    <li class="nav-item">
-      <a href="#" class="nav-link">Instagram</a>
-    </li>
-    <li class="nav-item">
-      <a href="#" class="nav-link">LinkedIn</a>
-    </li>
-    <li class="nav-item">
-      <a href="#" class="nav-link">Youtube</a>
-    </li>
-    <li class="nav-item">
-      <a href="#" class="nav-link">X</a>
-    </li>
-  </ul>
-  <p class="text-center">© 2024 KodePipz</p>
-  <br />
-</footer>
+<script>
+  import Icon from "@iconify/svelte";
+</script>
 
-<style>
-  .nav .nav-link {
-    color: white;
-  }
-  .text-center {
-    color: white;
-  }
-</style>
+<ul class="logo-cloud grid-cols-1 lg:!grid-cols-5 gap-1 mb-7">
+  <li>
+    <a href="/" class="logo-item"
+      ><span><Icon icon="uiw:facebook" width="24" height="24" /></span><span
+        >Facebook</span
+      ></a
+    >
+  </li>
+  <li>
+    <a href="/" class="logo-item"
+      ><span><Icon icon="ri:instagram-fill" width="24" height="24" /></span
+      ><span>Instagram</span></a
+    >
+  </li>
+  <li>
+    <a href="/" class="logo-item"
+      ><span><Icon icon="ion:social-linkedin" width="24" height="24" /></span
+      ><span>LinkedIn</span></a
+    >
+  </li>
+  <li>
+    <a href="/" class="logo-item"
+      ><span
+        ><Icon icon="foundation:social-youtube" width="24" height="24" /></span
+      ><span>Youtube</span></a
+    >
+  </li>
+  <li>
+    <a href="/" class="logo-item">
+      <span
+        ><Icon
+          icon="fa6-brands:square-x-twitter"
+          width="24"
+          height="24"
+        /></span
+      >
+      <span>X (formely Twitter)</span>
+    </a>
+  </li>
+</ul>
+<center class="py-7">
+  <h4 class="h4">© 2024 KodePipz</h4>
+</center>

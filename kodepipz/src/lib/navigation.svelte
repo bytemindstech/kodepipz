@@ -7,28 +7,27 @@
     ListBoxItem,
     popup,
   } from "@skeletonlabs/skeleton";
+  import Icon from "@iconify/svelte";
 
   import type { PopupSettings } from "@skeletonlabs/skeleton";
 
-  let comboboxValue: string;
-
-  const popupCombobox: PopupSettings = {
+  const popupBox: PopupSettings = {
     event: "click",
-    target: "popupCombobox",
+    target: "popupBox",
     placement: "bottom",
-    closeQuery: ".listbox-item",
+    closeQuery: "li",
   };
 </script>
 
 <TabGroup
   justify="justify-start"
-  active="variant-filled-primary"
-  hover="hover:variant-soft-secondary"
+  active="decoration-primary decoration-4 underline underline-offset-4"
+  hover="hover:variant-soft-primary"
   flex="flex-1 lg:flex-none"
-  rounded="rounded"
+  rounded="rounded-full"
   border=""
-  spacing="space-x-3"
-  class="bg-surface-100-800-token w-full"
+  spacing=""
+  class="bg-surface-100-800-token w-full hidden md:block"
 >
   <TabAnchor href="/" selected={$page.url.pathname === "/"}>
     <svelte:fragment slot="lead">Home</svelte:fragment>
@@ -39,30 +38,43 @@
   </TabAnchor>
 
   <button
-    class="btn variant-ghost-primary w-40 justify-between ms-5"
-    use:popup={popupCombobox}
+    class="btn hover:variant-soft-primary w-35 justify-between ms-5"
+    use:popup={popupBox}
   >
-    <span class="capitalize">{comboboxValue ?? "Explore"}</span>
-    <span>↓</span>
+    <span>Explore</span>
+    <span><Icon icon="gravity-ui:caret-down" /></span>
   </button>
 
-  <div class="card w-40 shadow-xl py-2" data-popup="popupCombobox">
-    <ListBox rounded="rounded-none">
-      <ListBoxItem bind:group={comboboxValue} name="medium" value=""
-        ><a href="/blog">Blog</a>
-      </ListBoxItem>
-      <ListBoxItem bind:group={comboboxValue} name="medium" value=""
-        ><a href="/register">Register</a>
-      </ListBoxItem>
-      <ListBoxItem bind:group={comboboxValue} name="medium" value="others"
-        >Others</ListBoxItem
-      >
-    </ListBox>
+  <div class="card w-40 shadow-xl py-2" data-popup="popupBox">
+    <nav>
+      <ul class="grid-col p-2">
+        <li>
+          <a
+            href="/blog"
+            class="btn hover:variant-soft-primary min-w-full rounded-none"
+            >Blog</a
+          >
+        </li>
+        <li>
+          <a
+            href="/faqs"
+            class="btn hover:variant-soft-primary min-w-full rounded-none"
+            >FAQs</a
+          >
+        </li>
+        <hr class="md:hidden !my-4 border dark:border-surface-500-400-token" />
+        <li>
+          <a
+            href="/register"
+            class="btn hover:variant-soft-primary min-w-full rounded-none"
+            >Register</a
+          >
+        </li>
+      </ul>
+    </nav>
+
     <div class="arrow bg-surface-100-800-token" />
   </div>
 
   <!-- ... -->
 </TabGroup>
-
-<style>
-</style>

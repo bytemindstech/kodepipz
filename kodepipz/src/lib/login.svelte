@@ -6,7 +6,7 @@
   </div>
 </div>
 
-<form class="form">
+<form class="form" action="/">
   <label for="username">Username</label><br />
   <input
     type="text"
@@ -22,49 +22,7 @@
     name="password"
     placeholder="password"
     required
-  /><br />
-  <p>Don't have an account yet? <a href=""><u>Register</u></a></p>
-  <input type="submit" value="submit" />
+  />
+  <p>Don't have an account yet? <a href="register"><u>Register</u></a></p>
+  <button class="btn variant-filled-primary" type="submit">Submit</button>
 </form>
-<br />
-<br />
-
-<style>
-  .form {
-    width: 300px;
-    margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
-  }
-
-  .form label {
-    display: block;
-    margin-bottom: 5px;
-  }
-
-  .form input[type="text"],
-  .form input[type="password"] {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;
-  }
-
-  .form input[type="submit"] {
-    width: 100%;
-    padding: 10px;
-    background-color: #4caf50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-
-  .form input[type="submit"]:hover {
-    background-color: #45a049;
-  }
-</style>
