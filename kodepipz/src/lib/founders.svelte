@@ -2,60 +2,59 @@
   import { Avatar } from "@skeletonlabs/skeleton";
 </script>
 
-<section class="min-h-screen">
+<section>
   <div class="container mx-auto">
-    <div class="flex flex-col items-center my-7">
-      <center> <h2 class="h2">- Our Mission -</h2></center>
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 my-10">
+      <div class="card">
+        <header class="card-header"><h2 class="h2">Our Mission</h2></header>
 
-      <h5 class="h5 text-center">
-        Our mission is to help students to learn and get additional help from
-        our partner online teachers and tutors.
-      </h5>
-    </div>
-
-    <div class="flex flex-col items-center mb-7">
-      <center><h2 class="h2">- Our Vision -</h2></center>
-
-      <h5 class="h5 text-center">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum
-        aperiam culpa doloremque placeat provident deserunt beatae neque, modi
-        sed magni consequatur dolorem minima ad est quaerat, eaque tenetur nemo
-        facere.
-      </h5>
-    </div>
-
-    <div class="flex flex-col items-center mb-7">
-      <center><h2 class="h2">- About-</h2></center>
-
-      <h5 class="h5 text-center">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-        eveniet esse ratione iste, accusantium provident repellendus, deleniti
-        praesentium sunt debitis similique sit ex distinctio veniam beatae
-        doloribus, corporis alias. Eaque.
-      </h5>
-    </div>
-
-    <h2 class="h2 text-center">- Leadership -</h2>
-
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
-      <div class="flex flex-col items-center justify-center">
-        <Avatar
-          src="https://avatars.githubusercontent.com/u/120020713?v=4"
-          width="w-[200px]"
-        />
-        <h4 class="h4"><u>Rizaldy Britanico - OM</u></h4>
-        <h5 class="h5">One of the founders.</h5>
-        <p>Front End Web Developer</p>
+        <section class="p-4">
+          <p class="text-xl font-medium">
+            Our mission is to help students to learn and get additional help
+            from our partner online teachers and tutors.
+          </p>
+        </section>
       </div>
 
-      <div class="flex flex-col items-center justify-center">
-        <Avatar
-          src="https://avatars.githubusercontent.com/u/81309377?v=4"
-          width="w-[200px]"
-        />
-        <h4 class="h4"><u>Jhenbert Villamucho - OM</u></h4>
-        <h5 class="h5">One of the founders.</h5>
-        <p>Full Stack Web Developer</p>
+      <div class="card">
+        <header class="card-header"><h2 class="h2">Our Vision</h2></header>
+
+        <section class="p-4">
+          <p class="text-xl font-medium">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum
+            aperiam culpa doloremque placeat provident deserunt beatae neque,
+            modi sed magni consequatur dolorem minima ad est quaerat, eaque
+            tenetur nemo facere.
+          </p>
+        </section>
+      </div>
+    </div>
+
+    <h2 class="h2 text-center mb-7 mt-16">The Team</h2>
+
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+      <div class="card card-hover p-7">
+        <div class="flex flex-col items-center justify-center">
+          <h4 class="h4 mb-2 underline">Rizaldy Britanico</h4>
+          <Avatar
+            src="https://avatars.githubusercontent.com/u/120020713?v=4"
+            width="w-[200px]"
+          />
+          <h5 class="h5 mt-2">Co-founder</h5>
+          <p class="text-sm">Front End Web Developer</p>
+        </div>
+      </div>
+
+      <div class="card card-hover p-7">
+        <div class="flex flex-col items-center justify-center">
+          <h4 class="h4 mb-2 underline">Jhenbert Villamucho</h4>
+          <Avatar
+            src="https://avatars.githubusercontent.com/u/81309377?v=4"
+            width="w-[200px]"
+          />
+          <h5 class="h5 mt-2">Co-founder</h5>
+          <p class="text-sm">Full Stack Web Developer</p>
+        </div>
       </div>
     </div>
   </div>
